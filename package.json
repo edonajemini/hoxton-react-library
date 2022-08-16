@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^20.2.43",
+    "create-react-app": "^5.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
