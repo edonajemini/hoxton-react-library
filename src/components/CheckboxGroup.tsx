@@ -3,7 +3,10 @@ type Props = {
     children: string
     selected?: boolean
   }
+
+
 export function CheckboxGroup({children, selected, ...props}:Props){
+
         const  [checkbox, setCheckboxes] =  useState([ "Did u learn JS", "Did u learn CSS", "Did u learn REACT", "Did u learn TS",])
         let style = { width: "20px", height:"20px", margin: "10px", fontSize:'10px', textDecoration: "none"};
         if  (selected) {
@@ -16,9 +19,7 @@ export function CheckboxGroup({children, selected, ...props}:Props){
             <li>
           {checkbox.map(item => (<div className='checkbox-list'>
             <input type="checkbox" name='letters' className='checkbox-letters' style={style} required
-            onSelect={()=>{selected}}
-            /> 
-
+            onSelect={()=>{}} />
             <label>{item}</label>
             </div>
             ))}

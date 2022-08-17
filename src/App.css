@@ -1,12 +1,21 @@
 .App {
-  margin: 100px;
+  margin: 100px 500px;
   text-align: center;
+  border: 1px solid gray;
+  background-color: rgba(216, 112, 147, 0.601);
+  padding: 20px;
 }
 .form-list {
   list-style: none;
   display: grid;
   gap: 2rem;
 }
-.btn-class{
-  width: 200px;
+
+.buttons {
+  display: grid;
+  grid-auto-flow: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin:15px 0px;
+  background-color: ;
 }
