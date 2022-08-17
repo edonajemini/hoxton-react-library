@@ -1,19 +1,6 @@
 import { useState } from 'react'
 export function RadioGroup(){
-    const  [radio, setRadios] =  useState([
-        {
-          text: "Is your name Ed?",
-          id:"first-radio"
-        },
-        {
-          text:"Is your name Nico?",
-          id:"second-radio"
-        },
-        {
-          text:"Is your name Edona?",
-          id:"third-radio"
-        }
-      ])
+    const  [radio, setRadios] =  useState(["Is your name Ed?","Is your name Nico?","Is your name Edona?",])
     return(
         <div>
             <li>
@@ -24,7 +11,7 @@ export function RadioGroup(){
                 name="text"
                 required
                 value="1" />
-                <label htmlFor="text-1"> {item.text}</label>
+                <label htmlFor="text-1"> {item}</label>
                 </div>
                 ))}
                 </li>
