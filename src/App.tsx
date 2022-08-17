@@ -5,7 +5,7 @@ import { CheckboxGroup } from "./components/CheckboxGroup"
 import { RadioGroup } from './components/RadioGroup'
  
 function App({setTrueorFalse}:any) {
-
+  
   return (
     <div className="App">
       < Button size='big'
@@ -20,9 +20,8 @@ function App({setTrueorFalse}:any) {
       onClick={() => {
       }}>True</Button>
       < Input />
-
       <ul className='form-list'>
-        < CheckboxGroup />
+        < CheckboxGroup children='' selected/>
         < RadioGroup />
                 </ul>
     </div>

@@ -6,11 +6,9 @@ export function RadioGroup(){
             <li>
               {radio.map(item => (<div className='radio-list'>
                 <input 
-                id="first-radio"
                 type="radio"
                 name="text"
-                required
-                value="1" />
+                required />
                 <label htmlFor="text-1"> {item}</label>
                 </div>
                 ))}

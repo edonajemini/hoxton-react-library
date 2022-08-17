@@ -27,7 +27,7 @@ export function Button({children,size='medium',secondary, ...props}:Props){
         style.fontSize = "10px"
     }
     if  (secondary) {
-       style.backgroundColor = "red"
+       style.backgroundColor = "rgba(207, 14, 46, 0.778)"
     }
     return(
         <div>
