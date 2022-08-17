@@ -23,7 +23,7 @@ function App({setTrueorFalse}:any) {
       </div>
       < Input />
       <ul className='form-list'>
-        < CheckboxGroup children='' selected/>
+        < CheckboxGroup children='' />
         < RadioGroup />
                 </ul>
     </div>
