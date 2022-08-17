@@ -2,15 +2,15 @@ import { useState } from 'react'
 export function RadioGroup(){
     const  [radio, setRadios] =  useState([
         {
-          text: "A",
+          text: "Is your name Ed?",
           id:"first-radio"
         },
         {
-          text:"B",
+          text:"Is your name Nico?",
           id:"second-radio"
         },
         {
-          text:"C",
+          text:"Is your name Edona?",
           id:"third-radio"
         }
       ])

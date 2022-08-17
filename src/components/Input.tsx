@@ -3,8 +3,8 @@ export function Input(){
         <div>
             <li>
           <div className='email-list'>
+          <label>email</label>
           <input type="email" name='email' className='input-email' placeholder='Your email goes here!' required />
-            <label>email</label>
             </div>
             </li>
         </div>
